@@ -1,0 +1,31 @@
+Código 1
+
+Controle Preciso: Este sistema estabelece regras específicas para diferentes combinações de ângulo e velocidade angular, o que pode resultar em um controle mais exato em situações predefinidas.
+Adaptabilidade a Mudanças: As regras estabelecidas são fixas e podem não se adaptar facilmente a mudanças significativas no ambiente do pêndulo/carro.
+Eficiência de Resposta: O sistema parece calcular as saídas de forma eficiente, já que as regras não são excessivamente complexas.
+Capacidade de Lidar com Incertezas e Variações: As regras são fixas e não têm uma capacidade explícita de lidar com incertezas ou variações não previstas.
+
+
+Código 2
+
+Controle Preciso: Utiliza funções automáticas de pertinência (automf) para definir os conjuntos nebulosos, simplificando o processo de modelagem e possivelmente sacrificando precisão em relação ao primeiro código.
+Adaptabilidade a Mudanças: Pode ser mais adaptável devido à definição automática dos conjuntos nebulosos, embora as regras sejam fixas.
+Eficiência de Resposta: Assim como o primeiro código, a simplicidade das regras sugere uma eficiência razoável no tempo de resposta.
+Capacidade de Lidar com Incertezas e Variações: A definição automática dos conjuntos nebulosos pode permitir uma melhor capacidade de lidar com incertezas e variações não previstas.
+
+
+Vantagens e Desvantagens
+
+Código 1:
+
+Vantagens: Precisão em situações bem definidas. Controle específico para diferentes combinações de ângulo e velocidade angular.
+Desvantagens: Menos adaptável a mudanças. Requer ajustes frequentes para lidar com novas situações.
+
+Código 2:
+
+Vantagens: Simplificação na definição de conjuntos nebulosos. Maior adaptabilidade a variações devido à automatização na definição dos conjuntos.
+Desvantagens: Possível perda de precisão em comparação com o primeiro código. Rigidez das regras pode limitar a capacidade de resposta a mudanças bruscas.
+Cenários de Aplicação
+
+O Código 1 pode ser mais adequado quando a precisão é crucial e o ambiente de controle é estável e bem definido.
+O Código 2 pode ser mais apropriado em cenários onde a adaptabilidade a mudanças é prioritária e a precisão pode ser sacrificada em troca de uma resposta mais ágil a variações.
